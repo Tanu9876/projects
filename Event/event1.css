@@ -1,0 +1,66 @@
+@font-face {
+    font-family: harry p;
+    src: url(HarryP-MVZ6w.ttf);
+}
+body {
+    background-image: url('images/b_2.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#heading {
+    font-weight: 2rem;
+    margin: 1rem auto auto 2rem;
+    word-spacing: 1.5rem;
+    font-size: 250%;
+    text-shadow: 0 0.2rem 0.2rem black;
+    font-family: harry p;
+}
+.about {
+    color: #0CC0DF;
+}
+.event { 
+    color: white;
+}
+#info {
+    color: white;
+    text-align: center;
+    margin: 5% 20% 5% 20%;
+    line-height: 200%;
+    word-spacing: 1rem;
+    position: relative;
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+}
+#ved {
+    height:4rem;
+    width:8rem;
+    margin-bottom: -1.6rem;
+    filter:brightness(5);
+}
+.item{
+    text-align:center;
+    color:white;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0rem 4rem 0rem 4rem;
+
+}
+#colleges, #register, #city, #youtube {
+    height: 8rem;
+    width:auto;
+    filter:brightness(2);
+}
+#index-gallery{
+     text-align: center;
+}
+.btn button{
+    width: 13rem;
+    height: 3rem;
+    border: 0.1rem solid white;
+    border-radius: 5%;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    margin: 3rem 2rem 3rem 2rem;
+}
