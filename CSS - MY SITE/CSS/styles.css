@@ -1,0 +1,151 @@
+body {
+text-align: center;
+font-family: 'Merriweather',serrif;
+
+
+}
+.top {
+    background-color: #001C30;
+    color:#DAFFFB ;
+}
+#heading {
+    font-family:' Sacremento',cursive;
+    font-size: 80px;
+}
+#heading2 {
+    font-family:'Montserrat', sans-serrif;
+    font-size: 40px;
+    color:#DAFFFB;
+    font-weight: normal;
+}
+h3 {
+    font-family:'Montserrat', sans-serrif;
+    color: #DAFFFB
+    font-size: 28px;
+}
+.pic {
+    margin-top: 30px;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+p {
+    font-size: 18px;
+}
+hr { 
+        border-color: white;
+        width: 90%;
+        border-width:2px; 
+        border-style: dotted none none;
+    }
+.profile {
+    position:relative;
+    margin: 0 auto 0 auto;
+    background-color: #66BFBF;
+    color:#001C30;
+}
+.like {
+    font-weight: bold;
+    color:#001C30;
+}
+#hobbies {
+    margin: 0 auto 0 auto;
+    background-color: #66BFBF;
+    color:#001C30;
+}
+
+#moon {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: 500px;
+   
+}
+#mountain {
+    height: 500px;
+    width: 1325px;
+    position: relative;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 70px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+}
+.books {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.song {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.cycle {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.food {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+#bottom-container {
+    background-color:hsl(174, 100%, 93%) ;
+    color: #001C30;
+    font-size: 20px;
+    padding: 20px 0 20px;
+}
+.btn {
+    background-color:rgb(191, 227, 241);
+    border-radius: 28px;
+    font-family: arial;
+    
+}
+.btn:hover {
+    background-color: skyblue;
+    border-radius: 28px;
+    font-family: arial;
+    
+}
+.contact {
+   color:#001C30;
+   font-weight: bold;
+   margin: 0 auto 0 auto;
+}
+
+.insta {
+    position: absolute;
+    left: 1000px;
+}
+.linkedin {
+    position: absolute;
+    right: 1000px;
+}
+header {
+    position: absolute;
+    top: 0;
+    width:100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100;
+    margin: 10px 0px auto 650px;
+}
+.navigation a {
+    text-decoration: none;
+    color:#9EC8B9;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover, .navigation a.active {
+    background-color:#9EC8B9;
+    color:#092635;
+    
+}
