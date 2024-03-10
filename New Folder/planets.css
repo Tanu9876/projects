@@ -1,0 +1,231 @@
+ body{ 
+    text-align: center;
+    background-color: black;
+}
+  
+  #app {
+    overflow: hidden;
+    touch-action: pan-up;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+  }
+  
+  #app h1 {
+    --fontSize: 60px;
+    --lineHeight: 80px;
+    width: auto;
+    height: calc(2 * var(--lineHeight));
+    line-height: var(--lineHeight);
+    font-size: var(--fontSize);
+    text-transform: uppercase;
+  }
+  #app canvas {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  }
+
+    @keyframes mymoves {
+        from {top: 200px;}
+        to {top: 240px;}
+  }
+  header {
+    position: absolute;
+    top: 0;
+    width:100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100;
+    margin: 10px 0px auto 650px;
+}
+.navigation a {
+    text-decoration: none;
+    color:#FB8B24;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover, .navigation a.active {
+    background-color:#FB8B24;
+    color:#9A031E;
+    
+}
+.sun {
+width: 100px;
+height: auto;
+margin: 0 5px auto 0;
+position: relative;
+animation: mymoves 20s;
+animation-iteration-count: 1;
+
+}
+.sun:hover {
+   width: 500px;
+   height:auto;
+
+}
+.earth {
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+    position: relative;
+    animation: mymoves 20s;
+    animation-iteration-count: 1;
+    }
+    .earth:hover {
+        width: 500px;
+        height:auto;
+        transform: rotate(90deg);
+    }
+.venus {
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+    position: relative;
+    animation: mymoves 20s;
+    animation-iteration-count: 1;
+    }
+    .venus:hover {
+        width: 500px;
+        height:auto;
+        transform: rotate(90deg);
+    }
+.mars {
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+    position: relative;
+    animation: mymoves 20s;
+    animation-iteration-count: 1;
+
+    }
+    .mars:hover {
+        width: 500px;
+        height:auto;
+        transform: rotate(90deg);
+    }
+.uranus {
+        width: 100px;
+        height: auto;
+        margin: 0 0;
+        position: relative;
+        animation: mymoves 20s;
+        animation-iteration-count: 1;
+     }
+     .uranus:hover {
+        width: 500px;
+        height:auto;
+        transform: rotate(90deg);
+    }
+.neptune {
+        width: 50px;
+        height: auto;
+        margin: 0 15px;
+        position: relative;
+        animation: mymoves 20s;
+        animation-iteration-count: 1;
+    }
+    .neptune:hover {
+        width: 250px;
+        height:auto;
+        transform: rotate(90deg);
+    }
+.saturn {
+        width: 100px;
+        height: auto;
+        margin: 0 5px;
+        position: relative;
+        animation: mymoves 20s;
+        animation-iteration-count: 1;}
+.saturn:hover {
+    width: 500px;
+    height:auto;
+}
+.jupiter {
+        width: 50px;
+        height: auto;
+        margin: 0 5px;
+        position: relative;
+        animation: mymoves 20s;
+        animation-iteration-count: 1;
+        }
+.jupiter:hover {
+    width: 500px;
+    height:auto;
+    transform: rotate(90deg);
+}
+.mercury { 
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+    position: relative;
+    animation: mymoves 20s;
+    animation-iteration-count: 1;
+}
+.mercury:hover {
+    width: 500px;
+    height:auto;
+    transform: rotate(360deg);
+}
+.p {
+    height: 500px;
+    width: 250px;
+    position:relative;
+    padding:30px;
+}
+.p:hover {
+    border: solid;
+    border-color:rgb(232, 245, 120);
+    border-radius:20px;
+    padding:40px;
+    height:600px;
+    width:300px;
+
+}
+
+.ss { 
+    width: auto;
+    height:1000px;
+    text-align:center;
+}
+
+.bottom-container {
+    background-color:#1D2B53;
+    color:aquamarine;
+    font-size: 20px;
+    padding: 20px 0 20px;
+    text-align:center;
+}
+.btn {
+    background-color:#80BCBD;
+    border-radius: 28px;
+    font-family: arial;
+    padding:1% 2% 1% 2%;
+    
+}
+.btn:hover {
+    background-color:#F9F7C9;
+    border-radius: 28px;
+    font-family: arial;
+    
+}
+.contact {
+    color:aquamarine;
+   font-weight: bold;
+   margin: 0 auto 0 auto;
+}
+
+.insta {
+    position: absolute;
+    left: 1000px;
+}
+.linkedin {
+    position: absolute;
+    right: 1000px;
+}
